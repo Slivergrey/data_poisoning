@@ -1,0 +1,150 @@
+2021-05-13 13:14:59.353 | INFO     | federated_learning.utils.data_loader_utils:load_data_loader_from_file:63 - Loading data loader from file: data_loaders/fashion-mnist/train_data_loader.pickle
+2021-05-13 13:15:02.130 | INFO     | federated_learning.utils.data_loader_utils:load_data_loader_from_file:63 - Loading data loader from file: data_loaders/fashion-mnist/test_data_loader.pickle
+2021-05-13 13:15:04.681 | INFO     | federated_learning.utils.poison_data:poison_data:24 - Poisoning data for workers: []
+2021-05-13 13:15:04.682 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #0 has data distribution: [120, 120, 122, 116, 136, 104, 105, 119, 119, 139]
+2021-05-13 13:15:04.683 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #1 has data distribution: [131, 103, 113, 121, 114, 119, 101, 129, 118, 151]
+2021-05-13 13:15:04.684 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #2 has data distribution: [111, 106, 108, 116, 115, 148, 119, 120, 131, 126]
+2021-05-13 13:15:04.685 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #3 has data distribution: [129, 132, 108, 120, 108, 113, 118, 116, 127, 129]
+2021-05-13 13:15:04.686 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #4 has data distribution: [116, 112, 110, 125, 120, 139, 123, 126, 125, 104]
+2021-05-13 13:15:04.687 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #5 has data distribution: [115, 133, 126, 120, 122, 122, 112, 109, 124, 117]
+2021-05-13 13:15:04.688 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #6 has data distribution: [113, 110, 133, 128, 122, 121, 115, 131, 112, 115]
+2021-05-13 13:15:04.689 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #7 has data distribution: [117, 119, 123, 133, 106, 122, 119, 112, 126, 123]
+2021-05-13 13:15:04.690 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #8 has data distribution: [115, 132, 128, 130, 101, 112, 141, 117, 113, 111]
+2021-05-13 13:15:04.691 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #9 has data distribution: [122, 111, 133, 108, 134, 105, 133, 119, 105, 130]
+2021-05-13 13:15:04.692 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #10 has data distribution: [112, 129, 117, 103, 127, 129, 120, 118, 133, 112]
+2021-05-13 13:15:04.694 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #11 has data distribution: [130, 96, 123, 122, 120, 125, 127, 126, 118, 113]
+2021-05-13 13:15:04.696 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #12 has data distribution: [129, 99, 123, 129, 143, 119, 104, 104, 122, 128]
+2021-05-13 13:15:04.697 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #13 has data distribution: [113, 118, 135, 133, 113, 95, 125, 135, 108, 125]
+2021-05-13 13:15:04.698 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #14 has data distribution: [120, 117, 126, 127, 123, 129, 112, 117, 109, 120]
+2021-05-13 13:15:04.699 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #15 has data distribution: [116, 122, 133, 105, 111, 117, 138, 128, 126, 104]
+2021-05-13 13:15:04.701 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #16 has data distribution: [113, 124, 123, 97, 143, 124, 121, 105, 127, 123]
+2021-05-13 13:15:04.703 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #17 has data distribution: [142, 129, 126, 124, 111, 108, 125, 133, 94, 108]
+2021-05-13 13:15:04.704 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #18 has data distribution: [112, 135, 110, 125, 113, 128, 125, 118, 124, 110]
+2021-05-13 13:15:04.705 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #19 has data distribution: [132, 123, 121, 109, 100, 120, 120, 121, 121, 133]
+2021-05-13 13:15:04.706 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #20 has data distribution: [137, 129, 110, 104, 109, 140, 109, 136, 109, 117]
+2021-05-13 13:15:04.708 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #21 has data distribution: [119, 116, 128, 115, 113, 124, 131, 116, 117, 121]
+2021-05-13 13:15:04.709 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #22 has data distribution: [108, 134, 139, 129, 107, 111, 118, 129, 121, 104]
+2021-05-13 13:15:04.709 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #23 has data distribution: [112, 126, 118, 131, 108, 122, 136, 128, 102, 117]
+2021-05-13 13:15:04.710 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #24 has data distribution: [127, 122, 111, 111, 123, 123, 120, 132, 110, 121]
+2021-05-13 13:15:04.711 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #25 has data distribution: [111, 113, 116, 125, 126, 101, 117, 110, 147, 134]
+2021-05-13 13:15:04.712 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #26 has data distribution: [102, 131, 111, 123, 131, 128, 115, 126, 117, 116]
+2021-05-13 13:15:04.714 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #27 has data distribution: [115, 131, 124, 131, 113, 113, 114, 132, 117, 110]
+2021-05-13 13:15:04.716 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #28 has data distribution: [121, 116, 111, 127, 102, 108, 127, 139, 130, 119]
+2021-05-13 13:15:04.717 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #29 has data distribution: [132, 132, 107, 115, 113, 126, 122, 104, 119, 130]
+2021-05-13 13:15:04.719 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #30 has data distribution: [116, 109, 124, 133, 143, 104, 132, 105, 116, 118]
+2021-05-13 13:15:04.720 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #31 has data distribution: [115, 111, 124, 128, 128, 132, 97, 117, 125, 123]
+2021-05-13 13:15:04.721 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #32 has data distribution: [108, 117, 99, 123, 134, 117, 124, 133, 117, 128]
+2021-05-13 13:15:04.722 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #33 has data distribution: [113, 121, 129, 123, 140, 118, 129, 104, 107, 116]
+2021-05-13 13:15:04.724 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #34 has data distribution: [116, 130, 110, 100, 123, 130, 135, 139, 113, 104]
+2021-05-13 13:15:04.725 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #35 has data distribution: [126, 113, 129, 104, 130, 132, 117, 108, 121, 120]
+2021-05-13 13:15:04.726 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #36 has data distribution: [125, 139, 112, 104, 138, 135, 89, 110, 131, 117]
+2021-05-13 13:15:04.728 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #37 has data distribution: [121, 125, 124, 134, 94, 136, 122, 103, 118, 123]
+2021-05-13 13:15:04.729 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #38 has data distribution: [129, 119, 124, 128, 124, 99, 120, 119, 117, 121]
+2021-05-13 13:15:04.730 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #39 has data distribution: [104, 108, 120, 127, 115, 117, 129, 131, 134, 115]
+2021-05-13 13:15:04.731 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #40 has data distribution: [121, 109, 107, 133, 116, 125, 111, 133, 104, 141]
+2021-05-13 13:15:04.732 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #41 has data distribution: [116, 119, 123, 120, 121, 125, 122, 110, 125, 119]
+2021-05-13 13:15:04.733 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #42 has data distribution: [125, 108, 103, 118, 130, 124, 122, 115, 126, 129]
+2021-05-13 13:15:04.734 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #43 has data distribution: [116, 118, 133, 116, 98, 126, 119, 126, 125, 123]
+2021-05-13 13:15:04.735 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #44 has data distribution: [134, 120, 111, 124, 111, 120, 106, 130, 121, 123]
+2021-05-13 13:15:04.736 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #45 has data distribution: [116, 112, 116, 124, 116, 130, 124, 112, 117, 133]
+2021-05-13 13:15:04.737 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #46 has data distribution: [130, 144, 126, 106, 121, 97, 128, 116, 121, 111]
+2021-05-13 13:15:04.738 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #47 has data distribution: [124, 110, 114, 124, 142, 120, 123, 101, 141, 101]
+2021-05-13 13:15:04.739 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #48 has data distribution: [121, 126, 120, 123, 105, 119, 116, 122, 124, 124]
+2021-05-13 13:15:04.740 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #49 has data distribution: [132, 122, 136, 106, 144, 99, 123, 111, 126, 101]
+2021-05-13 13:15:05.339 | INFO     | server:train_subset_of_clients:39 - Training epoch #1 on client #35
+2021-05-13 13:15:06.692 | INFO     | client:train:142 - [1,     0] loss: 0.020
+2021-05-13 13:15:07.440 | INFO     | client:train:142 - [1,   100] loss: 1.356
+2021-05-13 13:15:08.094 | INFO     | client:train:142 - [1,   200] loss: 0.913
+2021-05-13 13:15:08.752 | INFO     | server:train_subset_of_clients:39 - Training epoch #1 on client #15
+2021-05-13 13:15:08.760 | INFO     | client:train:142 - [1,     0] loss: 0.028
+2021-05-13 13:15:09.411 | INFO     | client:train:142 - [1,   100] loss: 1.291
+2021-05-13 13:15:10.086 | INFO     | client:train:142 - [1,   200] loss: 1.067
+2021-05-13 13:15:10.839 | INFO     | server:train_subset_of_clients:39 - Training epoch #1 on client #12
+2021-05-13 13:15:10.847 | INFO     | client:train:142 - [1,     0] loss: 0.021
+2021-05-13 13:15:11.915 | INFO     | client:train:142 - [1,   100] loss: 1.405
+2021-05-13 13:15:12.828 | INFO     | client:train:142 - [1,   200] loss: 0.870
+2021-05-13 13:15:13.623 | INFO     | server:train_subset_of_clients:39 - Training epoch #1 on client #18
+2021-05-13 13:15:13.629 | INFO     | client:train:142 - [1,     0] loss: 0.027
+2021-05-13 13:15:14.266 | INFO     | client:train:142 - [1,   100] loss: 1.520
+2021-05-13 13:15:15.029 | INFO     | client:train:142 - [1,   200] loss: 0.967
+2021-05-13 13:15:15.747 | INFO     | server:train_subset_of_clients:39 - Training epoch #1 on client #26
+2021-05-13 13:15:15.757 | INFO     | client:train:142 - [1,     0] loss: 0.028
+2021-05-13 13:15:16.502 | INFO     | client:train:142 - [1,   100] loss: 1.590
+2021-05-13 13:15:17.277 | INFO     | client:train:142 - [1,   200] loss: 0.969
+2021-05-13 13:15:41.909 | INFO     | federated_learning.utils.data_loader_utils:load_data_loader_from_file:63 - Loading data loader from file: data_loaders/fashion-mnist/train_data_loader.pickle
+2021-05-13 13:15:44.256 | INFO     | federated_learning.utils.data_loader_utils:load_data_loader_from_file:63 - Loading data loader from file: data_loaders/fashion-mnist/test_data_loader.pickle
+2021-05-13 13:15:46.628 | INFO     | federated_learning.utils.poison_data:poison_data:24 - Poisoning data for workers: []
+2021-05-13 13:15:46.629 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #0 has data distribution: [120, 120, 122, 116, 136, 104, 105, 119, 119, 139]
+2021-05-13 13:15:46.630 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #1 has data distribution: [131, 103, 113, 121, 114, 119, 101, 129, 118, 151]
+2021-05-13 13:15:46.631 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #2 has data distribution: [111, 106, 108, 116, 115, 148, 119, 120, 131, 126]
+2021-05-13 13:15:46.632 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #3 has data distribution: [129, 132, 108, 120, 108, 113, 118, 116, 127, 129]
+2021-05-13 13:15:46.632 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #4 has data distribution: [116, 112, 110, 125, 120, 139, 123, 126, 125, 104]
+2021-05-13 13:15:46.634 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #5 has data distribution: [115, 133, 126, 120, 122, 122, 112, 109, 124, 117]
+2021-05-13 13:15:46.634 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #6 has data distribution: [113, 110, 133, 128, 122, 121, 115, 131, 112, 115]
+2021-05-13 13:15:46.635 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #7 has data distribution: [117, 119, 123, 133, 106, 122, 119, 112, 126, 123]
+2021-05-13 13:15:46.636 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #8 has data distribution: [115, 132, 128, 130, 101, 112, 141, 117, 113, 111]
+2021-05-13 13:15:46.637 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #9 has data distribution: [122, 111, 133, 108, 134, 105, 133, 119, 105, 130]
+2021-05-13 13:15:46.637 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #10 has data distribution: [112, 129, 117, 103, 127, 129, 120, 118, 133, 112]
+2021-05-13 13:15:46.639 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #11 has data distribution: [130, 96, 123, 122, 120, 125, 127, 126, 118, 113]
+2021-05-13 13:15:46.640 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #12 has data distribution: [129, 99, 123, 129, 143, 119, 104, 104, 122, 128]
+2021-05-13 13:15:46.640 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #13 has data distribution: [113, 118, 135, 133, 113, 95, 125, 135, 108, 125]
+2021-05-13 13:15:46.641 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #14 has data distribution: [120, 117, 126, 127, 123, 129, 112, 117, 109, 120]
+2021-05-13 13:15:46.642 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #15 has data distribution: [116, 122, 133, 105, 111, 117, 138, 128, 126, 104]
+2021-05-13 13:15:46.643 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #16 has data distribution: [113, 124, 123, 97, 143, 124, 121, 105, 127, 123]
+2021-05-13 13:15:46.643 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #17 has data distribution: [142, 129, 126, 124, 111, 108, 125, 133, 94, 108]
+2021-05-13 13:15:46.644 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #18 has data distribution: [112, 135, 110, 125, 113, 128, 125, 118, 124, 110]
+2021-05-13 13:15:46.645 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #19 has data distribution: [132, 123, 121, 109, 100, 120, 120, 121, 121, 133]
+2021-05-13 13:15:46.646 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #20 has data distribution: [137, 129, 110, 104, 109, 140, 109, 136, 109, 117]
+2021-05-13 13:15:46.647 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #21 has data distribution: [119, 116, 128, 115, 113, 124, 131, 116, 117, 121]
+2021-05-13 13:15:46.647 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #22 has data distribution: [108, 134, 139, 129, 107, 111, 118, 129, 121, 104]
+2021-05-13 13:15:46.648 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #23 has data distribution: [112, 126, 118, 131, 108, 122, 136, 128, 102, 117]
+2021-05-13 13:15:46.649 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #24 has data distribution: [127, 122, 111, 111, 123, 123, 120, 132, 110, 121]
+2021-05-13 13:15:46.650 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #25 has data distribution: [111, 113, 116, 125, 126, 101, 117, 110, 147, 134]
+2021-05-13 13:15:46.651 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #26 has data distribution: [102, 131, 111, 123, 131, 128, 115, 126, 117, 116]
+2021-05-13 13:15:46.652 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #27 has data distribution: [115, 131, 124, 131, 113, 113, 114, 132, 117, 110]
+2021-05-13 13:15:46.653 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #28 has data distribution: [121, 116, 111, 127, 102, 108, 127, 139, 130, 119]
+2021-05-13 13:15:46.654 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #29 has data distribution: [132, 132, 107, 115, 113, 126, 122, 104, 119, 130]
+2021-05-13 13:15:46.655 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #30 has data distribution: [116, 109, 124, 133, 143, 104, 132, 105, 116, 118]
+2021-05-13 13:15:46.656 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #31 has data distribution: [115, 111, 124, 128, 128, 132, 97, 117, 125, 123]
+2021-05-13 13:15:46.657 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #32 has data distribution: [108, 117, 99, 123, 134, 117, 124, 133, 117, 128]
+2021-05-13 13:15:46.658 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #33 has data distribution: [113, 121, 129, 123, 140, 118, 129, 104, 107, 116]
+2021-05-13 13:15:46.659 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #34 has data distribution: [116, 130, 110, 100, 123, 130, 135, 139, 113, 104]
+2021-05-13 13:15:46.659 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #35 has data distribution: [126, 113, 129, 104, 130, 132, 117, 108, 121, 120]
+2021-05-13 13:15:46.660 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #36 has data distribution: [125, 139, 112, 104, 138, 135, 89, 110, 131, 117]
+2021-05-13 13:15:46.661 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #37 has data distribution: [121, 125, 124, 134, 94, 136, 122, 103, 118, 123]
+2021-05-13 13:15:46.662 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #38 has data distribution: [129, 119, 124, 128, 124, 99, 120, 119, 117, 121]
+2021-05-13 13:15:46.663 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #39 has data distribution: [104, 108, 120, 127, 115, 117, 129, 131, 134, 115]
+2021-05-13 13:15:46.665 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #40 has data distribution: [121, 109, 107, 133, 116, 125, 111, 133, 104, 141]
+2021-05-13 13:15:46.665 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #41 has data distribution: [116, 119, 123, 120, 121, 125, 122, 110, 125, 119]
+2021-05-13 13:15:46.666 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #42 has data distribution: [125, 108, 103, 118, 130, 124, 122, 115, 126, 129]
+2021-05-13 13:15:46.667 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #43 has data distribution: [116, 118, 133, 116, 98, 126, 119, 126, 125, 123]
+2021-05-13 13:15:46.667 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #44 has data distribution: [134, 120, 111, 124, 111, 120, 106, 130, 121, 123]
+2021-05-13 13:15:46.668 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #45 has data distribution: [116, 112, 116, 124, 116, 130, 124, 112, 117, 133]
+2021-05-13 13:15:46.669 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #46 has data distribution: [130, 144, 126, 106, 121, 97, 128, 116, 121, 111]
+2021-05-13 13:15:46.670 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #47 has data distribution: [124, 110, 114, 124, 142, 120, 123, 101, 141, 101]
+2021-05-13 13:15:46.670 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #48 has data distribution: [121, 126, 120, 123, 105, 119, 116, 122, 124, 124]
+2021-05-13 13:15:46.671 | INFO     | federated_learning.utils.client_utils:log_client_data_statistics:17 - Client #49 has data distribution: [132, 122, 136, 106, 144, 99, 123, 111, 126, 101]
+2021-05-13 13:15:46.908 | INFO     | server:train_subset_of_clients:39 - Training epoch #1 on client #33
+2021-05-13 13:15:46.954 | INFO     | client:train:142 - [1,     0] loss: 0.028
+2021-05-13 13:15:47.575 | INFO     | client:train:142 - [1,   100] loss: 1.238
+2021-05-13 13:15:48.167 | INFO     | client:train:142 - [1,   200] loss: 0.963
+2021-05-13 13:15:48.756 | INFO     | server:train_subset_of_clients:39 - Training epoch #1 on client #4
+2021-05-13 13:15:48.763 | INFO     | client:train:142 - [1,     0] loss: 0.019
+2021-05-13 13:15:49.348 | INFO     | client:train:142 - [1,   100] loss: 1.394
+2021-05-13 13:15:49.963 | INFO     | client:train:142 - [1,   200] loss: 0.909
+2021-05-13 13:15:50.708 | INFO     | server:train_subset_of_clients:39 - Training epoch #1 on client #18
+2021-05-13 13:15:50.718 | INFO     | client:train:142 - [1,     0] loss: 0.027
+2021-05-13 13:15:51.478 | INFO     | client:train:142 - [1,   100] loss: 1.404
+2021-05-13 13:15:52.215 | INFO     | client:train:142 - [1,   200] loss: 1.236
+2021-05-13 13:15:52.794 | INFO     | server:train_subset_of_clients:39 - Training epoch #1 on client #31
+2021-05-13 13:15:52.800 | INFO     | client:train:142 - [1,     0] loss: 0.028
+2021-05-13 13:15:53.395 | INFO     | client:train:142 - [1,   100] loss: 1.301
+2021-05-13 13:15:53.996 | INFO     | client:train:142 - [1,   200] loss: 0.809
+2021-05-13 13:15:54.578 | INFO     | server:train_subset_of_clients:39 - Training epoch #1 on client #12
+2021-05-13 13:15:54.584 | INFO     | client:train:142 - [1,     0] loss: 0.019
+2021-05-13 13:15:55.167 | INFO     | client:train:142 - [1,   100] loss: 1.560
+2021-05-13 13:15:55.799 | INFO     | client:train:142 - [1,   200] loss: 1.196
+2021-05-13 13:15:56.549 | INFO     | server:train_subset_of_clients:43 - Averaging client parameters
+2021-05-14 15:47:13.057 | INFO     | federated_learning.utils.data_loader_utils:load_data_loader_from_file:63 - Loading data loader from file: data_loaders/fashion-mnist/train_data_loader.pickle
+2021-05-14 15:47:15.104 | INFO     | federated_learning.utils.data_loader_utils:load_data_loader_from_file:63 - Loading data loader from file: data_loaders/fashion-mnist/test_data_loader.pickle
+2021-05-14 15:47:17.616 | INFO     | federated_learning.utils.poison_data:poison_data:24 - Poisoning data for workers: [13, 28, 9, 33, 12]
